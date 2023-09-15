@@ -1,11 +1,14 @@
+import { Button } from "./components/ui/button";
+import { Label } from "./components/ui/label";
 
  export function App() {
   
 
   return (
     <>
-    <h1>Hello word</h1>
-    </>
+    <Button>Teste</Button>
+    <Label>Brasil</Label>
+  </>
   )
 }
 
